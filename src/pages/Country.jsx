@@ -1,4 +1,4 @@
-import { Section, Container, CountryInfo, Loader } from 'components';
+import { Section, Container, CountryInfo} from 'components';
 import { fetchCountry } from 'service/country-service';
 import { useState, useEffect } from 'react';
 import { useParams, useLocation } from 'react-router-dom';

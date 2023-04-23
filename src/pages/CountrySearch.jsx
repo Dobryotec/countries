@@ -1,11 +1,4 @@
-import {
-  Container,
-  SearchForm,
-  Section,
-  Heading,
-  Loader,
-  CountryList,
-} from 'components';
+import { Container, SearchForm, Section, CountryList } from 'components';
 import { fetchByRegion } from 'service/country-service';
 import { useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
