@@ -8,6 +8,9 @@ import {
 } from 'components';
 
 export const CountrySearch = () => {
+  const onSubmit = query => {
+    console.log(query);
+  };
   return (
     <Section>
       <Container>
